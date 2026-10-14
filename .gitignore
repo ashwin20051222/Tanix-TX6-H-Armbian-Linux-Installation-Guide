@@ -1,0 +1,26 @@
+# --- Disk images — never commit these ---
+*.img
+*.img.gz
+*.img.xz
+*.img.bz2
+*.iso
+*.bin
+
+# --- MicroSD dumps from dd / armbian-install ---
+*.sdimg
+armbian-install.img
+BACKUP-*.img
+
+# --- Local tooling ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# --- Editor cruft ---
+.vscode/
+.idea/
+*.swp
+*~
